@@ -6,9 +6,19 @@
   font-size: 24px;
   line-height: 28px;
   margin-right: 18px;
+  text-align: right;
+  padding-top: 18px;
 }
 
 .header__lang-link:last-child {
   text-decoration: none;
   margin-right: 0;
+}
+
+@media (max-width:767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
 }
