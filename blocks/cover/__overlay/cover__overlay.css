@@ -11,6 +11,7 @@
   background-size: cover;
   flex-direction: column;
   text-align: center;
+  
 }
 
 .cover__overlay::before {
@@ -21,8 +22,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(71, 70, 70, 0.3);
-  opacity: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
 }
 
 .cover__overlay:hover::before {
